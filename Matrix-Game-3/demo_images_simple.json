@@ -1,0 +1,262 @@
+[
+  {
+    "id": "colorful_cityscape",
+    "prompt": "A colorful, animated cityscape with a gas station and various buildings.",
+    "first_frame": "s3://3dfm-videogen/eval/evalsets/matrix_game_3/001/image.png",
+    "actions": {
+      "Movement": ["W", "W", "W", "W", "W", "WA", "WA", "W", "W", "W", "WD", "WD", "W", "W", "W", "W", "W", "A", "A", "W", "W", "W", "WD", "WD", "W", "W", "W", "W", "WA", "WA", "W", "W", "W", "D", "D", "W", "W", "W", "W", "W"],
+      "Camera": ["-", "-", "→", "→", "-", "-", "-", "←", "←", "-", "-", "-", "↑", "↑", "-", "-", "→", "→", "→", "-", "-", "-", "↓", "↓", "-", "-", "←", "←", "-", "-", "-", "→", "→", "-", "-", "-", "↑", "-", "-", "-"]
+    },
+    "generation": {
+      "height": 720,
+      "width": 1280,
+      "num_frames": 81,
+      "num_inference_steps": 25,
+      "seed": 42
+    },
+    "auxiliary_info": {
+      "scene": {
+        "scene": {
+          "scene": "city"
+        }
+      },
+      "appearance_style": {
+        "appearance_style": "colorful animated low-poly render"
+      }
+    }
+  },
+  {
+    "id": "desert_town",
+    "prompt": "A desert town with wooden buildings, cacti, and palm trees under a clear blue sky.",
+    "first_frame": "s3://3dfm-videogen/eval/evalsets/matrix_game_3/002/image.png",
+    "actions": {
+      "Movement": ["W", "W", "W", "W", "WA", "WA", "W", "W", "W", "WD", "WD", "W", "W", "W", "W", "A", "A", "W", "W", "W", "W", "D", "D", "W", "W", "W", "WA", "WA", "W", "W", "WD", "WD", "W", "W", "W", "W", "W", "W", "-", "-"],
+      "Camera": ["-", "-", "←", "←", "-", "-", "↑←", "↑←", "-", "-", "→", "→", "-", "-", "-", "←", "←", "-", "-", "↑", "↑", "-", "-", "→", "→", "-", "-", "↓→", "↓→", "-", "-", "←", "←", "-", "-", "-", "→", "→", "-", "-"]
+    },
+    "generation": {
+      "height": 720,
+      "width": 1280,
+      "num_frames": 81,
+      "num_inference_steps": 25,
+      "seed": 42
+    },
+    "auxiliary_info": {
+      "scene": {
+        "scene": {
+          "scene": "desert"
+        }
+      },
+      "appearance_style": {
+        "appearance_style": "stylized game render"
+      }
+    }
+  },
+  {
+    "id": "tropical_path",
+    "prompt": "A tropical scene with palm trees, rocks, and a path under a cloudy sky.",
+    "first_frame": "s3://3dfm-videogen/eval/evalsets/matrix_game_3/003/image.png",
+    "actions": {
+      "Movement": ["W", "W", "W", "W", "W", "WA", "WA", "W", "W", "W", "W", "WD", "WD", "W", "W", "W", "W", "W", "A", "A", "W", "W", "W", "WD", "WD", "W", "W", "W", "W", "WA", "WA", "W", "W", "W", "W", "W", "W", "-", "-", "-"],
+      "Camera": ["-", "-", "↑", "↑", "-", "-", "←", "←", "-", "-", "-", "→", "→", "-", "-", "↓", "-", "-", "←", "←", "-", "-", "↑→", "↑→", "-", "-", "→", "→", "-", "-", "-", "←", "←", "-", "-", "↓←", "↓←", "-", "-", "-"]
+    },
+    "generation": {
+      "height": 720,
+      "width": 1280,
+      "num_frames": 81,
+      "num_inference_steps": 25,
+      "seed": 42
+    },
+    "auxiliary_info": {
+      "scene": {
+        "scene": {
+          "scene": "tropical"
+        }
+      },
+      "appearance_style": {
+        "appearance_style": "stylized game render"
+      }
+    }
+  },
+  {
+    "id": "pixelated_village",
+    "prompt": "A pixelated village scene with houses, trees, and gravestones in a grassy landscape.",
+    "first_frame": "s3://3dfm-videogen/eval/evalsets/matrix_game_3/004/image.png",
+    "actions": {
+      "Movement": ["W", "W", "W", "WA", "WA", "W", "W", "WD", "WD", "W", "W", "W", "A", "A", "W", "W", "W", "D", "D", "W", "W", "W", "WA", "WA", "W", "W", "-", "-", "WD", "WD", "W", "W", "W", "A", "A", "W", "W", "W", "-", "-"],
+      "Camera": ["-", "-", "→", "→", "-", "-", "←", "←", "-", "-", "↑", "↑", "-", "-", "→", "→", "-", "-", "↓", "↓", "-", "-", "←", "←", "-", "-", "-", "↑←", "↑←", "-", "-", "→", "→", "-", "-", "↓→", "↓→", "-", "-", "-"]
+    },
+    "generation": {
+      "height": 720,
+      "width": 1280,
+      "num_frames": 81,
+      "num_inference_steps": 25,
+      "seed": 42
+    },
+    "auxiliary_info": {
+      "scene": {
+        "scene": {
+          "scene": "village"
+        }
+      },
+      "appearance_style": {
+        "appearance_style": "pixelated game render"
+      }
+    }
+  },
+  {
+    "id": "pink_graffiti_alley",
+    "prompt": "A vibrant pink graffiti on a wall in an urban alleyway at night.",
+    "first_frame": "s3://3dfm-videogen/eval/evalsets/matrix_game_3/005/image.png",
+    "actions": {
+      "Movement": ["W", "W", "W", "A", "A", "A", "W", "W", "W", "D", "D", "W", "W", "W", "WA", "WA", "W", "W", "-", "-", "WD", "WD", "W", "W", "W", "A", "A", "W", "W", "W", "D", "D", "W", "W", "S", "S", "SD", "SD", "-", "-"],
+      "Camera": ["-", "←", "←", "←", "-", "-", "→", "→", "-", "-", "↑", "↑", "-", "-", "←", "←", "-", "-", "-", "↓", "↓", "-", "-", "→", "→", "→", "-", "-", "↑←", "↑←", "-", "-", "↓→", "↓→", "-", "-", "←", "←", "-", "-"]
+    },
+    "generation": {
+      "height": 720,
+      "width": 1280,
+      "num_frames": 81,
+      "num_inference_steps": 25,
+      "seed": 42
+    },
+    "auxiliary_info": {
+      "scene": {
+        "scene": {
+          "scene": "alley"
+        }
+      },
+      "appearance_style": {
+        "appearance_style": "urban night render"
+      }
+    }
+  },
+  {
+    "id": "ancient_stone_ruins",
+    "prompt": "An ancient stone structure with overgrown vegetation and a set of stairs.",
+    "first_frame": "s3://3dfm-videogen/eval/evalsets/matrix_game_3/006/image.png",
+    "actions": {
+      "Movement": ["W", "W", "W", "W", "W", "W", "WA", "WA", "W", "W", "W", "WD", "WD", "W", "W", "W", "W", "-", "-", "A", "A", "W", "W", "W", "W", "D", "D", "W", "W", "W", "WA", "WA", "W", "W", "W", "W", "-", "-", "-", "-"],
+      "Camera": ["-", "-", "↑", "↑", "↑", "-", "-", "←", "←", "-", "-", "→", "→", "-", "-", "↑←", "↑←", "-", "-", "↓", "↓", "-", "-", "→", "→", "-", "-", "↑→", "↑→", "-", "-", "←", "←", "-", "-", "-", "↓←", "↓←", "-", "-"]
+    },
+    "generation": {
+      "height": 720,
+      "width": 1280,
+      "num_frames": 81,
+      "num_inference_steps": 25,
+      "seed": 42
+    },
+    "auxiliary_info": {
+      "scene": {
+        "scene": {
+          "scene": "ruins"
+        }
+      },
+      "appearance_style": {
+        "appearance_style": "ancient ruins game render"
+      }
+    }
+  },
+  {
+    "id": "low_poly_forest",
+    "prompt": "A vibrant, low-poly forest scene with a path, trees, and colorful flowers.",
+    "first_frame": "s3://3dfm-videogen/eval/evalsets/matrix_game_3/007/image.png",
+    "actions": {
+      "Movement": ["W", "W", "W", "W", "WA", "WA", "W", "W", "W", "WD", "WD", "W", "W", "W", "A", "A", "W", "W", "W", "D", "D", "W", "W", "W", "WA", "WA", "W", "W", "W", "WD", "WD", "W", "W", "W", "W", "W", "-", "-", "-", "-"],
+      "Camera": ["-", "-", "←", "←", "-", "-", "↑", "↑", "-", "-", "→", "→", "-", "-", "↓", "↓", "-", "-", "←", "←", "-", "-", "↑→", "↑→", "-", "-", "→", "→", "-", "-", "↓←", "↓←", "-", "-", "←", "←", "-", "-", "-", "-"]
+    },
+    "generation": {
+      "height": 720,
+      "width": 1280,
+      "num_frames": 81,
+      "num_inference_steps": 25,
+      "seed": 42
+    },
+    "auxiliary_info": {
+      "scene": {
+        "scene": {
+          "scene": "forest"
+        }
+      },
+      "appearance_style": {
+        "appearance_style": "vibrant low-poly render"
+      }
+    }
+  },
+  {
+    "id": "futuristic_corridor",
+    "prompt": "A futuristic corridor with metallic walls, doors, and emergency equipment.",
+    "first_frame": "s3://3dfm-videogen/eval/evalsets/matrix_game_3/008/image.png",
+    "actions": {
+      "Movement": ["W", "W", "W", "W", "W", "W", "W", "A", "A", "W", "W", "W", "D", "D", "W", "W", "W", "W", "-", "-", "W", "W", "W", "A", "A", "W", "W", "W", "D", "D", "W", "W", "W", "W", "W", "W", "-", "-", "-", "-"],
+      "Camera": ["-", "-", "↑", "↑", "-", "-", "←", "←", "-", "-", "→", "→", "-", "-", "↓", "↓", "-", "-", "↑←", "↑←", "-", "-", "→", "→", "-", "-", "↑→", "↑→", "-", "-", "←", "←", "-", "-", "↓→", "↓→", "-", "-", "-", "-"]
+    },
+    "generation": {
+      "height": 720,
+      "width": 1280,
+      "num_frames": 81,
+      "num_inference_steps": 25,
+      "seed": 42
+    },
+    "auxiliary_info": {
+      "scene": {
+        "scene": {
+          "scene": "corridor"
+        }
+      },
+      "appearance_style": {
+        "appearance_style": "futuristic sci-fi render"
+      }
+    }
+  },
+  {
+    "id": "center_of_systems_alley",
+    "prompt": "A nighttime scene of an urban alleyway with graffiti-covered walls and a sign for the \"Center of Systems.\"",
+    "first_frame": "s3://3dfm-videogen/eval/evalsets/matrix_game_3/009/image.png",
+    "actions": {
+      "Movement": ["W", "W", "W", "W", "A", "A", "W", "W", "W", "D", "D", "W", "W", "W", "WA", "WA", "W", "W", "-", "-", "WD", "WD", "W", "W", "W", "A", "A", "W", "W", "W", "D", "D", "W", "W", "W", "W", "S", "S", "-", "-"],
+      "Camera": ["-", "-", "←", "←", "←", "-", "-", "→", "→", "-", "-", "↑", "↑", "-", "-", "←", "←", "-", "-", "↓", "↓", "-", "-", "→", "→", "→", "-", "-", "↑→", "↑→", "-", "-", "←", "←", "-", "-", "↓←", "↓←", "-", "-"]
+    },
+    "generation": {
+      "height": 720,
+      "width": 1280,
+      "num_frames": 81,
+      "num_inference_steps": 25,
+      "seed": 42
+    },
+    "auxiliary_info": {
+      "scene": {
+        "scene": {
+          "scene": "alley"
+        }
+      },
+      "appearance_style": {
+        "appearance_style": "urban night render"
+      }
+    }
+  },
+  {
+    "id": "snowy_landscape",
+    "prompt": "A snowy landscape with trees, a fence, and logs, viewed from different angles.",
+    "first_frame": "s3://3dfm-videogen/eval/evalsets/matrix_game_3/010/image.png",
+    "actions": {
+      "Movement": ["W", "W", "W", "W", "W", "WA", "WA", "W", "W", "W", "WD", "WD", "W", "W", "W", "-", "-", "A", "A", "W", "W", "W", "D", "D", "W", "W", "W", "S", "S", "SD", "SD", "W", "W", "W", "WA", "WA", "W", "W", "-", "-"],
+      "Camera": ["-", "-", "→", "→", "-", "-", "↑", "↑", "-", "-", "←", "←", "-", "-", "↓", "↓", "-", "-", "↑→", "↑→", "-", "-", "←", "←", "-", "-", "↓←", "↓←", "-", "-", "→", "→", "-", "-", "↑←", "↑←", "-", "-", "↓→", "↓→"]
+    },
+    "generation": {
+      "height": 720,
+      "width": 1280,
+      "num_frames": 81,
+      "num_inference_steps": 25,
+      "seed": 42
+    },
+    "auxiliary_info": {
+      "scene": {
+        "scene": {
+          "scene": "snow"
+        }
+      },
+      "appearance_style": {
+        "appearance_style": "winter landscape render"
+      }
+    }
+  }
+]
