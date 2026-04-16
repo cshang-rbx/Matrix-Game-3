@@ -1,0 +1,33 @@
+[project]
+name = "matrix-game-3-local"
+version = "0.1.0"
+description = "Local uv environment for Matrix-Game-3.0 inference"
+readme = "README.md"
+requires-python = ">=3.10,<3.13"
+dependencies = [
+    "accelerate>=1.1.1",
+    "decord",
+    "diffusers>=0.36.0",
+    "easydict",
+    "einops",
+    "ftfy",
+    "imageio[ffmpeg]",
+    "imageio-ffmpeg",
+    "numpy==2.2.6",
+    "opencv-python==4.10.0.84",
+    "pandas",
+    "safetensors==0.7.0",
+    "scipy",
+    "s3fs",
+    "tensorboard",
+    "tokenizers>=0.20.3",
+    "torch==2.10.0",
+    "torchaudio==2.10.0",
+    "torchvision==0.25.0",
+    "tqdm",
+    "transformers==4.57.3",
+    "trimesh",
+]
+
+[tool.uv]
+package = false
