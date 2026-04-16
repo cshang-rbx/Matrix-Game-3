@@ -38,7 +38,7 @@ from wan.utils.fm_solvers_unipc import FlowUniPCMultistepScheduler
 
 
 REPO_ROOT = Path(__file__).resolve().parent
-DEFAULT_DATASET = "./validation_sf.json"
+DEFAULT_DATASET = "./validation_sf_simple.json"
 FIRST_CHUNK_FRAMES = 57
 CHUNK_FRAMES = 56
 CHUNK_OVERLAP = 16

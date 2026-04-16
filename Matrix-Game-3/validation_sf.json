@@ -1,0 +1,457 @@
+[
+  {
+    "id": "the_dragon",
+    "prompt": "World: A dense, vibrant tropical jungle frames the scene, filled with towering trees, hanging vines, and large palm fronds. In the distance, a colossal, gothic-style stone castle rises dramatically from a rocky elevation. The fortress features numerous sharp spires, arched windows, and intricate stonework, with moss and vegetation creeping up its lower walls. The sky above is bright with scattered clouds, casting natural daylight over the misty, hyperrealistic landscape.; Character: First-person perspective showing a pair of human arms wearing brown leather gloves. The hands are gripping thick leather reins attached to a harness on the neck of a flying mount. The mount is a large, reptilian creature featuring green, scaly skin, a long neck with small bony protrusions on its head, and expansive membranous wings with mottled green and brown patterns. The overall aesthetic is that of a fantasy beast rider.; Dynamics: 1st person POV with the avatar's hands and arms visible. The genre appears to be a fantasy action-adventure or flight exploration game. Noticeable motion blur on the peripheral foliage and the creature's wings conveys a strong sense of high-speed aerial movement.",
+    "first_frame": "s3://3dfm-videogen/eval/evalsets/simple_newcaption/the_dragon.png",
+    "actions": {
+      "Movement": ["W", "W", "W", "W", "W", "W", "W"],
+      "Camera": ["-", "-", "-", "←", "←", "←", "←", "←", "-", "-", "-", "→", "→", "→", "→", "→"]
+    },
+    "generation": {
+      "height": 480,
+      "width": 832,
+      "num_frames": 81,
+      "num_inference_steps": 25,
+      "seed": 42
+    },
+    "auxiliary_info": {
+      "scene": {
+        "scene": {
+          "scene": "jungle"
+        }
+      },
+      "appearance_style": {
+        "appearance_style": "hyperrealistic fantasy game render"
+      }
+    }
+  },
+  {
+    "id": "stonehenge",
+    "prompt": "World: A ground-level view of the prehistoric monument Stonehenge, featuring massive, weathered grey standing stones arranged in a circular formation on a vibrant green grassy field. Some stones stand upright, while others are topped with horizontal lintels to form trilithons, and several lie fallen or broken on the ground. The surrounding landscape consists of flat, rolling green plains stretching toward the horizon. A completely overcast, pale grey sky casts diffuse, even illumination across the scene. Tiny, distant figures of people explore the area near the stones in the background. Photoreal real-world footage.; Character: None; Dynamics: Freefly spectator camera. Real-world footage capturing a landscape view.",
+    "first_frame": "s3://3dfm-videogen/eval/evalsets/simple_newcaption/stonehenge.png",
+    "actions": {
+      "Movement": ["A", "A", "A", "A", "W", "W", "W", "W", "W", "D", "D", "D", "D"],
+      "Camera": ["-", "-", "-", "-", "←", "←", "←", "-", "→", "→", "→", "→", "→", "→", "→", "→"]
+    },
+    "generation": {
+      "height": 480,
+      "width": 832,
+      "num_frames": 81,
+      "num_inference_steps": 25,
+      "seed": 42
+    },
+    "auxiliary_info": {
+      "scene": {
+        "scene": {
+          "scene": "field"
+        }
+      },
+      "appearance_style": {
+        "appearance_style": "photoreal real-world footage"
+      }
+    }
+  },
+  {
+    "id": "city_sunset",
+    "prompt": "World: A realistic game render of an urban environment featuring a large, rectangular building facade. The structure is composed of vertical panels, predominantly blue with a prominent horizontal yellow stripe. The lower portion of the wall is heavily tagged with colorful, chaotic graffiti. Near the top edge, several horizontal ventilation grates are visible. A metal ladder is attached to the side of the building. Overhead, dark power lines cut across a bright, hazy sky illuminated by a strong, warm light source, suggesting sunrise or sunset. Another tall structure is faintly silhouetted in the background. The overall aesthetic is gritty and dystopian.; Character: None; Dynamics: 1st person perspective with no avatar visible. The scene suggests an open-world exploration or cyberpunk genre. No UI elements are present on screen.",
+    "first_frame": "s3://3dfm-videogen/eval/evalsets/simple_newcaption/city_sunset.png",
+    "actions": {
+      "Movement": ["W", "W", "W", "A", "A", "A", "A", "W", "W", "W"],
+      "Camera": ["-", "-", "-", "-", "-", "-", "-"]
+    },
+    "generation": {
+      "height": 480,
+      "width": 832,
+      "num_frames": 81,
+      "num_inference_steps": 25,
+      "seed": 42
+    },
+    "auxiliary_info": {
+      "scene": {
+        "scene": {
+          "scene": "city"
+        }
+      },
+      "appearance_style": {
+        "appearance_style": "realistic game render"
+      }
+    }
+  },
+  {
+    "id": "wukong_spirit_mountain",
+    "prompt": "World: A vast, sun-drenched desert featuring rolling golden sand dunes that lead toward a distant, sharp mountain peak. A radiant sun hangs directly above the peak, creating a brilliant glow and hazy atmosphere. Scattered ancient ruins and stone pillars flank the scene. High-fidelity, cinematic game art style.; Character: Sun Wukong, wearing ornate dark mythological armor and a long, flowing crimson cape. His golden headpiece features two exceptionally long, tapered pheasant feathers (hualing) that curve into the sky. He carries a legendary staff; Dynamics: Third-person perspective. Fantasy open-world exploration. No UI elements.;",
+    "first_frame": "s3://3dfm-videogen/eval/evalsets/simple_newcaption/wukong_spirit_mountain.png",
+    "actions": {
+      "Movement": ["W", "W", "W", "W", "W", "W", "W", "W", "W", "WA", "WA", "WA", "WA", "WD", "WD", "WD", "WD"],
+      "Camera": ["-"]
+    },
+    "generation": {
+      "height": 480,
+      "width": 832,
+      "num_frames": 81,
+      "num_inference_steps": 25,
+      "seed": 42
+    },
+    "auxiliary_info": {
+      "object_class": {
+        "object": "person"
+      },
+      "scene": {
+        "scene": {
+          "scene": "desert"
+        }
+      },
+      "appearance_style": {
+        "appearance_style": "fantasy cinematic game render"
+      }
+    }
+  },
+  {
+    "id": "subterranean_ruins_tactical_explorer",
+    "prompt": "World: A cavernous alien or underwater landscape rendered in high-fidelity realistic game graphics. The rocky terrain is dotted with vibrant, bioluminescent flora, including giant coral formations, glowing green mushrooms, and purple anemone-like plants. Ancient stone ruins emerge from the haze in the distance, featuring tall pillars and a central structure with a triangular archway, surrounded by massive, jagged blue crystals. A thick, teal-tinted volumetric fog permeates the scene, creating a mysterious and ethereal atmosphere. No other figures are present.; Character: A human female protagonist viewed from behind, sporting reddish-brown hair tied back in a ponytail. She is clad in a sleek, form-fitting futuristic combat suit composed of dark grey and black segmented armor panels, highlighted with bright blue and yellow accents along the spine, shoulders, and legs. A small holster or piece of equipment is attached to her right thigh. The aesthetic is that of a sci-fi explorer or soldier.; Dynamics: 3rd person perspective orbiting loosely behind the main character. The genre is a sci-fi action-adventure or exploration game.",
+    "first_frame": "s3://3dfm-videogen/eval/evalsets/simple_newcaption/subterranean_ruins_tactical_explorer.png",
+    "actions": {
+      "Movement": ["W", "W", "W", "W", "W", "W", "W", "W", "A", "A", "W", "W", "W", "W", "-", "-", "D", "D", "W", "W"],
+      "Camera": ["-", "-", "←", "←", "←", "-", "-", "-", "↑", "↑", "-", "-", "→", "→", "→", "-", "-", "↓", "-", "-"]
+    },
+    "generation": {
+      "height": 480,
+      "width": 832,
+      "num_frames": 81,
+      "num_inference_steps": 25,
+      "seed": 42
+    },
+    "auxiliary_info": {
+      "object_class": {
+        "object": "person"
+      },
+      "scene": {
+        "scene": {
+          "scene": "bioluminescent cavern"
+        }
+      },
+      "appearance_style": {
+        "appearance_style": "fantasy sci-fi game render"
+      }
+    }
+  },
+  {
+    "id": "frog_game",
+    "prompt": "World: A magical, oversized pond is bathed in warm, golden, hazy lighting. Enormous green lily pads float on the calm water surface. Tiny, whimsical dwellings constructed from folded green leaves sit on the lily pads, featuring glowing yellow windows and doorways. Small, luminescent orange mushrooms grow near these leaf houses. Giant pink lotus flowers bloom in the background, and delicate, arched wooden bridges connect distant lily pads. A highly polished, stylized 3D render creates a fairy-tale atmosphere.; Character: A small green frog viewed from behind serves as the main character. The frog features smooth green skin with darker spots and orange-tipped toes. A tiny, rustic brown backpack secured with light-colored straps rests on its back. A cute and adventurous aesthetic.; Dynamics: A 3rd person perspective orbits behind the main character. A cozy exploration or adventure platformer game.",
+    "first_frame": "s3://3dfm-videogen/eval/evalsets/simple_newcaption/frog_game.png",
+    "actions": {
+      "Movement": ["W", "W", "W", "W", "W", "-", "-", "D", "D", "W", "W", "W", "W", "-", "-", "A", "A", "W", "W", "W", "-", "-", "D", "D", "W", "W", "W", "W", "-", "-", "A", "A", "W", "W", "W", "-", "-", "D", "D", "W"],
+      "Camera": ["-", "-", "→", "→", "→", "-", "-", "-", "-", "↓", "↓", "-", "-", "-", "←", "←", "←", "-", "-", "-", "↑", "↑", "-", "-", "→", "→", "-", "-", "-", "↓", "-", "-", "←", "←", "-", "-", "↑", "-", "-", "-"]
+    },
+    "generation": {
+      "height": 480,
+      "width": 832,
+      "num_frames": 81,
+      "num_inference_steps": 25,
+      "seed": 42
+    },
+    "auxiliary_info": {
+      "object_class": {
+        "object": "frog"
+      },
+      "scene": {
+        "scene": {
+          "scene": "pond"
+        }
+      },
+      "appearance_style": {
+        "appearance_style": "stylized 3D fairy-tale render"
+      }
+    }
+  },
+  {
+    "id": "prehistoric_stones",
+    "prompt": "World: A rugged wilderness environment featuring a dirt path interspersed with sparse grass and small rocks. Large, moss-covered boulders and tall, jagged rock formations resembling standing stones dominate the landscape. Trees with green foliage and bare branches are scattered throughout. The sky is heavily overcast with grey clouds, casting diffused, natural light over the scene. The visual style is a hyperrealistic game render.; Character: A muscular human male with short brown hair. He wears a thick, textured animal fur cloak draped over his back, a primitive skirt, leather wrappings on his forearms, and leather boots. A spear with a wooden shaft and a stone head secured by cord is slung diagonally across his back. The overall aesthetic is that of a prehistoric survivalist or primitive warrior.; Dynamics: 3rd person orbiting the main character. The genre is a prehistoric survival or action-adventure game.",
+    "first_frame": "s3://3dfm-videogen/eval/evalsets/simple_newcaption/prehistoric_stones.png",
+    "actions": {
+      "Movement": ["W", "W", "W", "W", "-", "-", "A", "A", "W", "W", "W", "W", "-", "-", "D", "D", "W", "W", "W", "-", "-", "W", "W", "A", "A", "W", "W", "-", "-", "D", "D", "W", "W", "W", "-", "-", "A", "A", "W", "W"],
+      "Camera": ["-", "-", "←", "←", "-", "-", "-", "-", "↑", "-", "-", "→", "→", "-", "-", "-", "-", "↓", "-", "-", "←", "-", "-", "-", "-", "→", "→", "-", "-", "-", "-", "↑", "-", "-", "←", "←", "-", "-", "-", "-"]
+    },
+    "generation": {
+      "height": 480,
+      "width": 832,
+      "num_frames": 81,
+      "num_inference_steps": 25,
+      "seed": 42
+    },
+    "auxiliary_info": {
+      "object_class": {
+        "object": "person"
+      },
+      "scene": {
+        "scene": {
+          "scene": "wilderness"
+        }
+      },
+      "appearance_style": {
+        "appearance_style": "hyperrealistic game render"
+      }
+    }
+  },
+  {
+    "id": "antarctic_penguin",
+    "prompt": "World: A hyperrealistic game render of a frozen polar environment. Massive, fractured ice sheets feature deep, glowing blue crevices and rough, textured surfaces. A body of dark blue water borders the ice. A waddle of similar penguins gathers near the water's edge. Snow-capped mountain peaks rise under a bright, overcast sky. The lighting casts soft shadows across the icy terrain, emphasizing a cool color palette of whites and blues.; Character: A King Penguin viewed from behind, featuring dense black dorsal plumage and stiff, paddle-like flippers resting at its sides. Bright yellow-orange auricular patches are visible on the sides of its head and neck, contrasting with the dark feathers. The edges of its white ventral plumage are slightly visible along its flanks.; Dynamics: 3rd person orbiting the main character. The visual presentation suggests an animal simulation or exploration game focused on polar wildlife.",
+    "first_frame": "s3://3dfm-videogen/eval/evalsets/simple_newcaption/antarctic_penguin.png",
+    "actions": {
+      "Movement": ["W", "W", "-", "-", "W", "W", "W", "-", "-", "A", "A", "W", "W", "-", "-", "D", "D", "W", "W", "W", "-", "-", "W", "W", "-", "-", "A", "A", "W", "W", "-", "-", "D", "D", "W", "W", "-", "-", "W", "W"],
+      "Camera": ["-", "-", "→", "→", "-", "-", "-", "↓", "-", "-", "-", "-", "←", "←", "-", "-", "-", "-", "↑", "-", "-", "→", "→", "-", "-", "-", "-", "↓", "-", "-", "←", "←", "-", "-", "-", "-", "↑", "-", "-", "-"]
+    },
+    "generation": {
+      "height": 480,
+      "width": 832,
+      "num_frames": 81,
+      "num_inference_steps": 25,
+      "seed": 42
+    },
+    "auxiliary_info": {
+      "object_class": {
+        "object": "bird"
+      },
+      "scene": {
+        "scene": {
+          "scene": "snow"
+        }
+      },
+      "appearance_style": {
+        "appearance_style": "hyperrealistic game render"
+      }
+    }
+  },
+  {
+    "id": "floating_islands_rider",
+    "prompt": "World: Massive floating islands suspended in the sky dominate the fantasy landscape. These airborne landmasses are topped with lush green foliage, trees, and the crumbling stone ruins of ancient temples and pillars. Cascading waterfalls spill from the edges of the floating islands, disappearing into the mist below. A sprawling valley features a winding river and hazy mountain ranges in the distance. Warm, golden-hour sunlight bathes the scene, creating a serene and majestic atmosphere with soft clouds and atmospheric fog. Hyperrealistic game render.; Character: A muscular humanoid figure rides atop a massive flying creature. The rider has a bare back with a diagonal strap and wears an elaborate headdress made of large green, orange, and yellow feathers. They are adorned with a feathered collar, armbands, and a feathered skirt, gripping the saddle of their mount. The mount is a large avian beast with expansive wings featuring brown and orange primary feathers and green covert feathers. The creature's body is covered in green scales and textured plumage, with a saddle strapped to its back. The overall aesthetic evokes a fantastical Mesoamerican warrior.; Dynamics: 3rd person orbiting the main character. The genre is a fantasy action-adventure or open-world exploration game featuring aerial traversal mechanics. The framing suggests smooth, gliding flight through the expansive environment.",
+    "first_frame": "s3://3dfm-videogen/eval/evalsets/simple_newcaption/floating_islands_rider.png",
+    "actions": {
+      "Movement": ["W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W"],
+      "Camera": ["-", "-", "-", "-", "-", "-", "↑", "↑", "-", "-", "-", "-", "-", "-", "←", "←", "←", "-", "-", "-", "-", "-", "-", "↓", "↓", "-", "-", "-", "-", "-", "-", "→", "→", "→", "-", "-", "-", "-", "-", "-", "↑", "↑", "-", "-", "-", "-", "-", "-", "←", "←", "-", "-", "-", "-", "-", "-"]
+    },
+    "generation": {
+      "height": 480,
+      "width": 832,
+      "num_frames": 81,
+      "num_inference_steps": 25,
+      "seed": 42
+    },
+    "auxiliary_info": {
+      "object_class": {
+        "object": "person"
+      },
+      "scene": {
+        "scene": {
+          "scene": "sky"
+        }
+      },
+      "appearance_style": {
+        "appearance_style": "hyperrealistic fantasy game render"
+      }
+    }
+  },
+  {
+    "id": "bike_path_firstperson",
+    "prompt": "World: A dense pine forest features tall, straight trees lining a dirt trail. The ground consists of packed dirt, loose gravel, and small rocks. Low-lying green bushes and undergrowth grow at the base of the trees. Bright sunlight filters through the canopy, casting distinct, elongated shadows across the path. Highly photorealistic visual fidelity resembles real-world action camera footage.; Character: Bare, light-skinned arms and hands are visible in first-person view. The hands wear black, textured riding gloves and grip the black handlebars of a mountain bike. The bike features a black stem and frame, with the word \"APEX\" printed in white on the handlebars. The front suspension fork has gold-colored stanchions and blue adjustment dials. Brake levers, cables, and shifters are mounted on the handlebars.; Dynamics: 1st person POV with the avatar's arms and hands visible. The genre is an outdoor sports or mountain biking simulation.",
+    "first_frame": "s3://3dfm-videogen/eval/evalsets/simple_newcaption/bike_path_firstperson.png",
+    "actions": {
+      "Movement": ["W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W"],
+      "Camera": ["-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "←", "←", "←", "←", "←", "←", "←", "←", "←", "←", "←", "←", "←", "←", "←", "←", "←", "←", "←", "←", "←", "←", "←", "←", "←", "←", "←", "←", "←", "←", "←", "←", "←", "←", "←", "←", "←", "←", "←", "←", "←", "←", "←", "←", "←", "←", "←", "←", "→", "→", "→", "→", "→", "→", "→", "→", "→", "→", "→", "→", "→", "→", "→", "→", "→", "→", "→", "→", "→", "→", "→", "→", "→", "→", "→", "→"]
+    },
+    "generation": {
+      "height": 480,
+      "width": 832,
+      "num_frames": 121,
+      "num_inference_steps": 25,
+      "seed": 42
+    },
+    "auxiliary_info": {
+      "object_class": {
+        "object": "bicycle"
+      },
+      "scene": {
+        "scene": {
+          "scene": "forest"
+        }
+      },
+      "appearance_style": {
+        "appearance_style": "photoreal"
+      }
+    }
+  },
+  {
+    "id": "girl_bike_trail",
+    "prompt": "World: A straight, paved bicycle trail. On one side, a calm body of water is bordered by a low concrete wall. On the other side, a wide bed of green groundcover dotted with bright purple flowers lines the path, backed by trees, a yellow signpost, and residential houses. Tall power line towers are visible in the distance under a clear, bright blue sky. The lighting is sunny and natural. Real-world photographic aesthetic.; Character: A girl rides a bicycle and wears a light beige long-sleeve top, light blue pants, and a playful yellow helmet featuring a pink unicorn horn and ears; Dynamics: A thrid-person perspective, camera following and focused on the character. Bike riding game.",
+    "first_frame": "s3://3dfm-videogen/eval/evalsets/simple_newcaption/girl_bike_trail.png",
+    "actions": {
+      "Movement": ["W", "W", "WA", "WA", "W", "W", "WD", "WD", "W", "W", "W", "W", "W", "W", "W", "W", "W"],
+      "Camera": ["-", "-", "←", "←", "-", "-", "→", "→", "-", "-", "-", "-", "-", "-", "-", "-", "-"]
+    },
+    "generation": {
+      "height": 480,
+      "width": 832,
+      "num_frames": 81,
+      "num_inference_steps": 25,
+      "seed": 42
+    },
+    "auxiliary_info": {
+      "object_class": {
+        "object": "person"
+      },
+      "scene": {
+        "scene": {
+          "scene": "trail"
+        }
+      },
+      "appearance_style": {
+        "appearance_style": "photoreal"
+      }
+    }
+  },
+  {
+    "id": "dmr_purple_sports_car_city_drive",
+    "prompt": "World: A bright, low-poly city intersection features asphalt roads marked with crisp white lines, bordered by light gray sidewalks. The surrounding architecture includes a multi-story building under construction with an exposed concrete grid, a tall modern high-rise with blue glass panels, and various colorful buildings in the distance, including a red brick structure and a slender blue skyscraper. A blue mailbox stands on the sidewalk corner. The sky is a clear, vibrant blue dotted with fluffy white clouds, illuminated by bright, sunny daylight. The overall art style is blocky, stylized, and cartoonish.; Character: A vibrant purple sports car serves as the main subject. The vehicle features a sleek, aerodynamic design equipped with a prominent black rear spoiler. The rear end displays dual circular red taillights and twin exhaust pipes integrated into a dark lower bumper. The car has a metallic finish.; Dynamics: The perspective is a third-person view positioned behind the vehicle. The genre is casual driving, open-world exploration, or arcade racing.",
+    "first_frame": "s3://3dfm-videogen/eval/evalsets/dmr_rocapture/dmr_purple_sports_car_city_drive.png",
+    "actions": {
+      "Movement": ["W", "WD", "W", "W", "WA", "W", "WD", "W", "W", "WA", "W", "W", "W", "WD", "W", "W", "W", "W", "W", "W", "W", "W", "S", "S", "SD", "SD", "SD", "SD", "SD", "SD", "SD", "WD", "WD", "WD", "WD", "WD", "-", "WD", "WD", "WD", "A", "A", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-"],
+      "Camera": ["-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-"]
+    },
+    "generation": {
+      "height": 480,
+      "width": 832,
+      "num_frames": 81,
+      "num_inference_steps": 25,
+      "seed": 42
+    },
+    "auxiliary_info": {
+      "object_class": {
+        "object": "car"
+      },
+      "scene": {
+        "scene": {
+          "scene": "city"
+        }
+      },
+      "appearance_style": {
+        "appearance_style": "blocky style"
+      }
+    }
+  },
+  {
+    "id": "dmr_forest_axe_avatar",
+    "prompt": "World: A low-poly, blocky forest environment covered in flat green grass. Scattered across the terrain are blocky trees with brown trunks and geometric green canopies, small green bushes, and a single cut brown log resting on the ground. A wooden signpost with four white rectangular panels stands in the background. A thick, grey fog obscures the atmosphere, creating a muted and overcast mood. Another blocky figure wearing a red and black plaid shirt and dark pants is visible in the distance. The art style is a voxel-based sandbox game render.; Character: A blocky, low-poly humanoid character with light skin and long black hair. The character wears an orange beanie, a green long-sleeve shirt with white stripes down the arms, blue denim shorts, and black shoes. The character holds a large, blocky axe with a thick grey handle and a metallic blade with a reddish tint. The overall aesthetic is a casual survivalist.; Dynamics: 3rd person perspective orbiting the main character. The mechanics suggest a sandbox, survival, or crafting genre focused on resource gathering.",
+    "first_frame": "s3://3dfm-videogen/eval/evalsets/dmr_rocapture/dmr_forest_axe_avatar.png",
+    "actions": {
+      "Movement": ["-", "-", "-", "WD", "WD", "WA", "WA", "WA", "WA", "WA", "WA", "WA", "WA", "WA", "W", "WA", "WA", "WA", "WA", "W", "W", "W", "W", "W", "W", "WA", "WA", "WA", "W", "WA", "WA", "WD", "W", "W", "W", "W", "W", "W", "W", "W", "WD", "WD", "W", "W", "W", "WD", "WD", "D", "WD", "WA", "WA", "WA", "WA", "WA", "WA", "WD", "WD", "WA", "WA", "WA", "WA", "W", "WA", "-", "W", "W", "-", "WA", "W", "A", "A", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "A", "WA", "WA", "WA", "WA", "A", "A", "A", "D", "-", "D", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "A", "A", "D", "-", "A", "A", "A", "D", "-", "A", "A", "A", "WA", "WA", "WA", "WD", "WD", "WD", "WD", "WD", "WD", "WA", "WA", "W", "WD", "WD", "W", "W", "WA", "A", "A", "A", "WA", "W", "W", "W", "W", "WA", "WA", "WA", "WA", "WA", "WA", "WA", "WD", "WD", "W", "WA", "W", "WD", "D", "D", "W", "W", "WD", "WD", "WD", "WD", "W", "W", "WD", "WD", "WD", "D", "D", "A", "WD", "WD", "WD", "D", "WD", "WD", "WD", "WD", "WD", "WD", "W"],
+      "Camera": ["←", "←", "-", "↓←", "↓←", "-", "-", "-", "-", "-", "-", "↑", "↑", "-", "←", "→", "-", "-", "-", "-", "-", "↓←", "↓←", "↓←", "-", "-", "-", "-", "-", "-", "↑→", "→", "↑→", "↑→", "↑→", "↓←", "↓", "-", "-", "-", "-", "↑→", "-", "→", "↓→", "↓→", "↑→", "←", "→", "↓→", "↑→", "↓→", "→", "←", "←", "←", "-", "→", "-", "←", "←", "←", "↓→", "-", "-", "-", "←", "-", "-", "-", "-", "→", "-", "-", "↑←", "→", "↓←", "-", "-", "-", "-", "-", "-", "-", "-", "-", "→", "-", "-", "↑←", "←", "↑←", "↓→", "↓→", "↓→", "-", "-", "-", "-", "-", "-", "←", "↑→", "↑→", "-", "↓←", "←", "↑←", "-", "↓←", "↑←", "↑←", "↑←", "↓←", "↑←", "↓", "↓←", "↑←", "↑←", "-", "-", "↑←", "↑←", "↓←", "↑←", "↑→", "↑→", "↓→", "-", "↓→", "-", "-", "-", "-", "-", "↓→", "↓→", "↓→", "↓→", "↓←", "↓←", "↑→", "↑→", "↑→", "↓→", "↓→", "-", "↑←", "↑→", "↓←", "↓", "↓", "↓→", "↓", "↓←", "-", "-", "↑→", "↑", "↑→", "↓→", "↓→", "↑←", "←", "↑←", "↑←", "-", "↑→", "-", "-", "-", "↓→", "-", "↑←", "↑←", "↑←", "-", "↓←", "↓→", "→", "↑→", "↓←", "↓←", "←", "-", "↓→", "↓→", "↓→", "↑→", "-", "-", "-", "-", "-", "-", "-", "-", "←", "→", "↓→", "-", "↓", "↓→", "→", "→", "→", "→", "→", "-", "-", "↑←", "↑←", "↓←", "↓←", "↓←", "↓←", "↓←", "-", "↓", "→", "↑→", "→", "↑→", "→"]
+    },
+    "generation": {
+      "height": 480,
+      "width": 832,
+      "num_frames": 81,
+      "num_inference_steps": 25,
+      "seed": 42
+    },
+    "auxiliary_info": {
+      "object_class": {
+        "object": "person"
+      },
+      "scene": {
+        "scene": {
+          "scene": "forest"
+        }
+      },
+      "appearance_style": {
+        "appearance_style": "blocky style"
+      }
+    }
+  },
+  {
+    "id": "dmr_foggy_staircase_runner",
+    "prompt": "World: A dimly lit, enclosed staircase ascending into a thick, yellowish-green haze. A rough, heavily textured wall flanks the blocky steps, while the opposite wall is smooth and plain. The environment features a low-poly art style with a murky, eerie atmosphere obscuring the top of the flight of stairs.; Character: A blocky humanoid avatar with yellow skin on its head and arms. It wears a plain black short-sleeved t-shirt and dark pants with matching dark shoes. The figure has a classic, low-poly aesthetic typical of voxel-based games, with no visible facial features from the rear perspective.; Dynamics: 3rd person orbiting the main character. The murky environment indicates an exploration or horror-themed adventure game.",
+    "first_frame": "s3://3dfm-videogen/eval/evalsets/dmr_rocapture/dmr_foggy_staircase_runner.png",
+    "actions": {
+      "Movement": ["W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "-", "-", "-", "W", "W", "-", "-", "-", "-", "-", "W", "W", "W", "W", "W", "W", "W", "-", "-", "-", "-", "-", "W", "W", "W", "W", "W", "W", "-", "-", "-", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "-", "W", "W", "W", "W", "W", "W", "W", "-", "W", "W", "W", "W", "W", "-"],
+      "Camera": ["←", "↓→", "→", "↑←", "←", "-", "-", "-", "-", "-", "-", "←", "↓←", "↓→", "↓→", "-", "-", "↓→", "↓→", "→", "↑←", "←", "←", "↑←", "↑←", "↑←", "↑←", "↑←", "-", "-", "↓→", "↓", "↓", "↑", "↑→", "↑←", "↑←", "↑←", "↑←", "↓→", "↓→", "←", "-", "-", "↑←", "↑←", "↑←", "-", "-", "-", "-", "-", "↑←", "↑←", "↓→", "←", "↑←", "-", "←", "↑←", "-", "↑←", "←", "←", "-", "-", "←", "←", "-", "←", "←", "-", "←", "↓←", "-", "↑←", "↑←", "↑", "↑", "↑"]
+    },
+    "generation": {
+      "height": 480,
+      "width": 832,
+      "num_frames": 81,
+      "num_inference_steps": 25,
+      "seed": 42
+    },
+    "auxiliary_info": {
+      "object_class": {
+        "object": "person"
+      },
+      "scene": {
+        "scene": {
+          "scene": "staircase"
+        }
+      },
+      "appearance_style": {
+        "appearance_style": "blocky style"
+      }
+    }
+  },
+  {
+    "id": "rocapture_snowy_horseback_cabin",
+    "prompt": "World: A snowy, fog-heavy wilderness environment rendered in a highly realistic game style. A rustic wooden log cabin features a thick layer of snow on its roof and long icicles hanging from the eaves. The terrain is covered in deep snow, marked by tracks, with bare bushes and snow-laden pine trees scattered throughout. A wooden fence is partially visible. Another human figure, wearing a dark coat and hat, is mounted on a white horse with black spots. The atmosphere is cold and bleak.; Character: A human male mounted on a dark horse. He wears a heavy blue coat, a dark wide-brimmed hat, and a brown leather strap slung across his chest. A gun belt is fastened around his waist, holding a holstered revolver and a knife with a light-colored handle. The dark horse is equipped with a leather saddle, brown saddlebags, and rolled-up blankets. The overall aesthetic is that of a rugged western cowboy.; Dynamics: Third-person perspective orbiting the main character. The genre is a western action-adventure game. The UI includes a circular minimap with compass directions and colored blips, the objective text \"Follow Charles\", and the word \"Bow\" next to a bow icon.",
+    "first_frame": "s3://3dfm-videogen/eval/evalsets/dmr_rocapture/rocapture_snowy_horseback_cabin.png",
+    "actions": {
+      "Movement": ["-", "-", "-", "-", "-", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "WA", "WA", "W", "W", "W", "W", "WA", "WA", "W", "W", "W", "W", "W", "W", "W", "WA", "WA", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "WA", "WA", "WA", "WA", "WA", "WA", "WA", "W", "W", "W", "W", "WA", "WA", "WA", "WA", "WD", "WD", "W", "W", "W", "WD", "WD", "WD", "W", "W", "W", "WA", "WA", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "WD", "WD", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "WD", "WD", "WD", "WD", "WD", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "WA", "WA", "WA", "WA", "WA", "WA", "WA", "WA", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "WA", "WA", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "WA", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "WD", "WD", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "D", "WD", "WD", "WD", "WD", "WD", "W", "W", "W", "W", "W", "W", "W", "WD", "WD", "WD", "WD", "WD", "WD", "WD", "WD", "WD", "WA", "WA", "WA", "WA", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "WD", "WD", "WD", "WD", "WD", "WD", "WD", "WD", "WD", "WD", "WD", "WD", "WD", "WD", "WD", "D", "D", "D", "D", "WD", "WD", "WD", "WD", "D", "D", "D", "D", "D", "D", "D", "D", "D", "D", "D", "D", "D", "D", "D", "D", "D", "D", "D", "D", "D", "D", "D", "D", "D", "D", "D", "D", "D", "D", "D", "D", "D", "D", "D", "WD", "WD", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "WA", "WA", "WA", "WA", "WD", "WD", "WD", "WA", "WA", "W", "W", "W", "W", "W", "W", "WD", "WD", "W", "W", "W", "W", "W", "W", "W", "W", "WD", "WD", "W", "W", "W", "W", "W", "WD", "WD", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "WD", "WD", "WD", "WD", "WD", "WD", "WD", "WD", "WD", "WD", "WD", "WD", "WD", "WD", "WD", "W", "WA", "WA", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "WA", "WA", "WA", "WA", "W", "W", "W", "W", "W", "W", "W", "WA", "WA", "WA", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "-", "-", "-", "-", "-", "W", "W", "W", "W", "WD", "WD", "WD", "W", "W", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "D", "D", "D", "WD", "WD", "W", "W", "W", "-", "-", "-", "-", "-", "-", "-", "-", "D", "SD", "SD", "SD", "W", "WA", "WA", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "W", "WD", "D", "-", "-", "-", "-", "-", "-", "-", "-", "D", "SD", "SD", "SD", "SD", "SD", "WD", "WD", "WD", "WD", "WD", "W", "W", "WA", "A", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "WD", "D", "D", "D", "D", "D", "D", "D", "WD", "WD", "WD", "WD", "W", "W", "W", "W", "WD", "WD", "W", "W", "W", "WD", "W", "W", "W", "W", "W", "W", "W", "W", "WD", "WD", "WD", "WD", "WD", "WD", "WD", "WA", "WA", "W", "W", "W", "W", "WA", "WA", "W", "W", "W", "W", "W", "W", "W", "-", "W", "W", "W", "-", "-", "-", "-", "-", "-", "W", "W", "W", "W", "-", "-", "-", "-", "-", "-", "-", "-", "-", "A", "A", "A", "A", "-", "-", "-", "-", "-", "A", "WA", "WA", "A", "A", "A", "A", "WA", "WA", "W", "W", "W", "W", "WD", "WD", "WD", "W", "W", "W", "W", "WD", "WD", "WD", "WD", "WD", "WD", "WD", "WD", "WD", "WD", "WD", "WD", "WD", "WD", "WD", "WD", "WD", "W", "W", "W", "W", "W", "W", "W", "WD", "WD", "WD", "WD", "WD", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "WA", "WA", "WA", "WA", "WA", "W", "W", "W", "W", "W", "W", "WA", "WA", "WA", "WA", "WA", "WA", "W", "W", "W", "W", "WA", "WA", "WA", "WA", "WA", "WA", "W", "W", "WA", "WA", "WA", "WA", "WA", "WA", "WD", "WD", "W", "W", "W", "W", "W", "W", "W", "WA", "WA", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "WD", "WD", "WD", "WD", "WD", "W", "W", "W", "WD", "WD", "WD", "WD", "WD", "WD", "WD", "WD", "WD", "WD", "WD", "WD", "WD", "WD", "WD", "WD", "WD", "W", "W", "WD", "WD", "WD", "W", "WA", "WA", "WA", "W", "WD", "WD", "WD", "WD", "WD", "WD", "WD", "WD", "WD", "WD", "WD", "WD", "WD", "WD", "W", "-", "W", "W", "W", "W", "-", "W", "W", "A", "WA", "A", "-", "-", "-", "W", "A", "A", "WA", "W", "W", "W", "W", "WA", "WA", "A", "-", "-", "-", "W", "W", "W", "-", "-", "-", "-", "-", "-", "W", "W", "W", "WA", "A", "A", "A", "A", "-", "W", "W", "W", "W", "W", "WA", "A", "A", "A", "WA", "WA", "-", "-", "-", "-", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "WD", "WD", "W", "-", "W", "W", "W", "W", "W", "W", "W", "W", "W", "WD", "WD", "D", "D", "-", "-", "-", "-", "-", "D", "D", "D", "-", "D", "D", "D", "D", "D", "D", "D", "WD", "W", "WA", "WA", "W", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "WA", "WA", "WA", "WA", "W", "WD", "WD", "W", "W", "WA", "WA", "WA", "WA", "W", "W", "W", "W", "W", "WD", "WD", "W", "W", "W", "W", "W", "W", "W", "W", "WD", "W", "W", "W", "-", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "WD", "WD", "WD", "WD", "WD", "WD", "W", "W", "W", "W", "WD", "WD", "WD", "WD", "W", "W", "WA", "-", "D", "D", "D", "WD", "WD", "WD", "WD", "WA", "W", "-", "D", "WD", "WD", "WD", "W", "W", "WD", "SD", "SD", "SD", "WD", "WD", "W", "W", "W", "W", "W", "WD", "WD", "WD", "WD", "WD", "D", "D", "SD", "SD", "SD", "SD", "D", "D", "D", "D", "WD", "WD", "WD", "WD", "WD", "WD", "WD", "WD", "W", "W", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "W", "W", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "D", "D", "D", "D", "D", "D", "-", "-", "-", "-", "D", "D", "D", "D", "D", "D", "D", "D", "WD", "W", "W", "W", "W", "W", "W", "W", "W", "WD", "WD", "WD", "WD", "WD", "WD", "W", "W", "W", "WD", "WD", "WD", "WD", "WD", "WD", "W", "W", "WD", "WD", "WD", "WD", "WD", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "D", "D", "D", "D", "D", "D", "D", "WD", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "WD", "WD", "D", "D", "D", "D", "D", "D", "D", "D", "D", "D", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "A", "A", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "WA", "WA", "WA", "WA", "WA", "WA", "WA", "WA", "WA", "WA", "WA", "WA", "WA", "WA", "WA", "WA", "WA", "WA", "WA", "WA", "WA", "WA", "WA", "WA", "WA", "WA", "WA", "WA", "WA", "WA", "WA", "WA", "WA", "WA", "WA", "WA", "WA", "WA", "WA", "WA", "WA", "WA", "WA", "WA", "WA", "WA", "WA", "WA", "WA", "WA", "WA", "WA", "WA", "WA", "WA", "WA", "WA", "WA", "WA", "WA", "WA", "WA", "WA", "WA", "WA", "WA", "WA", "WA", "WA", "WA", "WA", "WA", "A", "A", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "D", "D", "D", "D", "D", "D", "D", "WD", "W", "W", "W", "WA", "WA", "W", "W", "W", "W", "W", "W", "W", "W", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "WA", "WA", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "WD", "WD", "WD", "WD", "WD", "WD", "WD", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "WD", "WD", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "WD", "WD", "W", "W", "W", "W", "W", "W", "W", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "W", "WD", "WD", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "WA", "WA", "WA", "WA", "W", "W", "W", "W", "W", "WA", "WA", "W", "W", "W", "WA", "WA", "WA", "WA", "WA", "WA", "WA", "WA", "W", "W", "W", "W", "WD", "WD", "WD", "D", "WD", "WD", "WD", "WD", "WD", "WD", "WD", "WD", "WD", "WD", "W", "W", "W", "W", "W", "W", "-", "-", "-", "-", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "WD", "WD", "WD", "WD", "WD", "WD", "WD", "WD", "W", "W", "W", "W", "WD", "W", "W", "WD", "W", "W", "W", "W", "W", "W", "W", "WD", "WD", "W", "W", "-", "D", "WD", "WD", "WD", "WD", "WD", "W", "W", "W", "W", "W", "W", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "W", "W", "W", "W", "W", "WA", "WA", "WA", "A", "A", "A", "A", "A", "A", "A", "WA", "WA", "WA", "WA", "WA", "WA", "WA", "WA", "WA", "WA", "WA", "WA", "WA", "WA", "WA", "WA", "A", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "W", "W", "W", "W", "WA", "WA", "WA", "WA", "WA", "WA", "WA", "WA", "WA", "WA", "WA", "WD", "WD", "WD", "WD", "WD", "WD", "WD", "WD", "WD", "WD", "WD", "WD", "WD", "WD", "WD", "WD", "WD", "WD", "WD", "WD", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "WD", "WD", "WD", "W", "WD", "WD", "WA", "WA", "WA", "WA", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "WD", "WD", "WD", "WD", "D", "D", "D", "D", "WD", "WD", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "WD", "WD", "W", "W", "W", "W", "W", "W", "W", "W", "W", "WD", "WD", "WD", "WD", "WD", "WD", "WD", "W", "WA", "WA", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "S", "S", "S", "S", "W", "W", "W", "W", "W", "W", "W", "W", "-", "-", "-", "-", "W", "W"],
+      "Camera": ["→", "-", "↑", "↑", "-", "-", "↑→", "-", "↑←", "↑←", "-", "←", "←", "-", "-", "↓→", "↓→", "↑←", "-", "↓→", "↓→", "↓→", "-", "↑", "-", "-", "↑←", "-", "-", "-", "↑←", "-", "-", "↑→", "↑", "↑←", "↑←", "↓→", "↓→", "-", "-", "↑→", "↑→", "↓→", "-", "-", "-", "-", "-", "↓→", "-", "-", "-", "-", "-", "-", "-", "↓→", "↓→", "-", "↑", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "↑←", "↑←", "↑", "↓", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "↓", "-", "↑", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "↑", "-", "↑", "-", "-", "-", "-", "-", "-", "-", "→", "↓→", "-", "-", "-", "-", "-", "-", "-", "-", "↓→", "-", "-", "-", "↓", "↓", "↓", "-", "↑→", "↓→", "↓→", "↓→", "-", "↑←", "-", "-", "↓→", "-", "-", "-", "-", "-", "-", "←", "-", "-", "↓←", "↓←", "-", "←", "-", "-", "-", "-", "-", "-", "-", "←", "←", "↑←", "-", "-", "-", "-", "↑←", "↑←", "-", "-", "↑→", "←", "-", "-", "-", "-", "-", "-", "←", "↓←", "-", "-", "←", "↑←", "-", "-", "↑←", "-", "→", "-", "←", "←", "←", "↑←", "↑←", "↑←", "↑", "-", "←", "-", "-", "-", "-", "-", "-", "-", "-", "-", "←", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "←", "↑←", "←", "↑←", "-", "↑←", "↑←", "↑→", "↑→", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "↓←", "-", "-", "-", "↓←", "-", "↓→", "↓→", "←", "↑←", "-", "-", "-", "-", "-", "↑←", "-", "←", "↑←", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "↓→", "↓→", "↓→", "-", "-", "-", "←", "-", "↓←", "↓←", "↑", "→", "-", "←", "↓←", "←", "←", "←", "-", "-", "-", "-", "-", "-", "-", "-", "←", "↓←", "↓", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "→", "↓→", "-", "-", "↓", "-", "-", "-", "-", "↓", "-", "-", "↓→", "↓→", "-", "-", "-", "-", "-", "-", "-", "-", "-", "↓→", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "←", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "↓←", "↓←", "-", "-", "←", "↑←", "←", "-", "←", "-", "-", "-", "-", "↑←", "↑←", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "→", "→", "→", "-", "↑→", "↑→", "↑→", "→", "-", "-", "-", "-", "↓→", "-", "-", "↓→", "↓→", "↓→", "↓", "-", "↓→", "-", "↓", "↓", "→", "-", "↑", "↓←", "-", "→", "-", "→", "→", "-", "↓→", "↓→", "-", "-", "↓→", "→", "-", "←", "-", "↓→", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "↑←", "↑←", "-", "↑←", "←", "←", "-", "-", "-", "-", "-", "↑←", "↓←", "-", "←", "-", "-", "-", "-", "-", "-", "-", "↑←", "↑←", "↑←", "-", "↓←", "↓←", "↓", "↓", "-", "-", "-", "-", "-", "-", "-", "↑→", "↑→", "→", "-", "↓→", "↓", "↓", "↓→", "-", "↓←", "↓←", "-", "-", "↓←", "↓←", "-", "↓←", "-", "-", "→", "↑→", "↑→", "↑←", "-", "↓←", "↓←", "↓←", "-", "-", "-", "-", "-", "-", "-", "-", "-", "→", "-", "-", "-", "-", "-", "→", "↓→", "-", "↓←", "↓←", "-", "↓←", "←", "-", "-", "↓→", "↑←", "←", "←", "↓←", "↓→", "↓→", "↑→", "→", "→", "↑→", "↑→", "-", "-", "←", "←", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "↑←", "-", "-", "-", "→", "↑→", "↑→", "-", "↑←", "-", "-", "-", "-", "↑→", "-", "-", "→", "↓→", "→", "←", "←", "↑→", "→", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "↓", "-", "-", "-", "-", "←", "-", "→", "↓→", "-", "→", "↓→", "↓→", "↑←", "↑", "→", "↓→", "→", "-", "-", "-", "-", "-", "←", "←", "←", "↓←", "↓←", "↑←", "↓←", "↓←", "→", "←", "-", "←", "→", "↑←", "←", "←", "↑←", "↑→", "↓←", "↓←", "←", "↓←", "↑←", "-", "-", "-", "-", "→", "↑→", "-", "-", "-", "→", "↑→", "-", "-", "-", "-", "-", "-", "-", "-", "-", "→", "→", "→", "→", "→", "→", "→", "-", "-", "↓→", "↑→", "-", "-", "-", "-", "↑←", "-", "←", "↓←", "↓←", "↓←", "↓", "↓←", "←", "←", "→", "→", "→", "→", "→", "-", "-", "-", "-", "←", "←", "←", "-", "-", "-", "-", "-", "-", "-", "↑←", "→", "→", "→", "-", "-", "-", "←", "←", "-", "-", "-", "↑", "-", "↑←", "↑←", "↑→", "↑←", "←", "→", "→", "→", "↑←", "↑←", "←", "↓→", "↓←", "↓←", "↑←", "↓←", "→", "→", "-", "↑→", "←", "↓←", "-", "←", "↓←", "↓←", "↓←", "→", "-", "-", "←", "-", "-", "←", "-", "-", "←", "-", "←", "↑←", "↑", "←", "-", "-", "-", "-", "-", "-", "←", "↓←", "↓→", "↑→", "-", "↑←", "←", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "←", "↓←", "→", "-", "-", "-", "-", "-", "↑→", "-", "-", "-", "←", "-", "↑→", "↑→", "-", "-", "↑→", "↑→", "→", "↑←", "↓←", "-", "←", "↑←", "-", "-", "↑→", "↓→", "-", "←", "-", "-", "←", "↑←", "↑→", "↑→", "↑→", "-", "-", "↓←", "↓←", "↓←", "-", "-", "-", "-", "↓→", "↓→", "-", "-", "↓→", "↓→", "↓→", "-", "-", "-", "-", "↑←", "↓→", "↑→", "←", "←", "↓←", "↓←", "↓←", "↓←", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "←", "←", "-", "↑←", "↓←", "↓", "↓", "-", "-", "-", "-", "-", "←", "←", "-", "-", "-", "←", "←", "-", "→", "↑←", "←", "↓", "↑→", "↑→", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "←", "←", "-", "←", "←", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "↓→", "-", "-", "-", "←", "-", "-", "-", "-", "-", "-", "-", "-", "-", "←", "↓←", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "→", "→", "-", "-", "-", "-", "-", "↓→", "↓→", "-", "-", "-", "←", "↓→", "↑←", "↑", "-", "-", "-", "-", "-", "↑", "↑←", "←", "-", "-", "-", "-", "-", "←", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "↑→", "↑", "↑", "↑←", "↑←", "-", "↑→", "-", "↑→", "-", "←", "←", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "↓", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "←", "-", "-", "-", "-", "↑→", "↑→", "→", "→", "→", "→", "-", "↓", "-", "-", "-", "←", "←", "-", "-", "-", "→", "↑→", "↑→", "-", "→", "-", "-", "↑→", "→", "-", "↑→", "↑→", "-", "↓←", "↓←", "↓", "-", "↑", "↑←", "-", "-", "↓←", "↓→", "↓", "↓→", "→", "↓→", "←", "-", "-", "-", "↓←", "↓←", "↓←", "↓→", "↓→", "-", "↑→", "↑→", "↑→", "-", "↑→", "↑", "-", "-", "-", "-", "←", "↑←", "-", "-", "-", "↑→", "→", "↓→", "↑→", "↑→", "-", "-", "↑←", "↓→", "↓", "↑←", "-", "-", "↑←", "←", "-", "↓→", "↓→", "-", "↓←", "↑←", "↑←", "↓", "-", "↓→", "↑→", "↓→", "↑→", "-", "←", "↓←", "↓←", "-", "→", "↑→", "-", "↓→", "↑→", "↑→", "-", "-", "↓←", "↓←", "→", "←", "↓←", "-", "↑←", "↑→", "→", "-", "-", "-", "→", "→", "↓", "-", "↑←", "-", "-", "-", "↓→", "←", "←", "←", "←", "↑←", "↑←", "↑", "-", "-", "-", "→", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "↓", "↓", "-", "→", "↑", "↓", "↓→", "↓→", "→", "-", "↑←", "↓←", "↓→", "↓→", "-", "↑←", "↑←", "↑←", "↑←", "↑→", "↑←", "↑", "↑", "-", "↓", "-", "-", "-", "-", "-", "-", "↓", "-", "-", "-", "-", "↑", "-", "←", "-", "-", "-", "-", "↓", "-", "↓", "↓→", "-", "-", "-", "-", "↑", "↑→", "-", "→", "↓→", "↓→", "↓→", "↓→", "↓→", "↓→", "-", "↓→", "→", "↑→", "→", "-", "↓→", "↓→", "↓←", "↑←", "-", "-", "-", "-", "-", "-", "→", "→", "-", "↑→", "↑→", "-", "-", "↓→", "↓→", "↑←", "↑←", "←", "↓←", "↓←", "←", "↓←", "-", "-", "-", "-", "↑←", "↑←", "-", "-", "-", "↑→", "↑→", "→", "-", "←", "-", "←", "←", "↑←", "↑←", "←", "↓←", "-", "←", "↑→", "↑→", "↑→", "→", "↓", "↓←", "-", "-", "-", "↑→", "↑", "-", "-", "-", "-", "-", "-", "↓", "-", "↓", "↓", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "→", "-", "↓→", "-", "-", "↑→", "-", "↑→", "↑→", "↑→", "↑→", "↑", "↓→", "↓", "↓→", "→", "-", "-", "-", "-", "-", "↓←", "-", "↑→", "↑→", "↑→", "↑", "↑", "↓", "-", "-", "-", "-", "-", "-", "↑→", "↑", "←", "←", "←", "↓←", "-", "-", "↓", "-", "-", "←", "←", "↑←", "↑←", "←", "-", "-", "-", "-", "↓←", "↓←", "←", "-", "-", "↑←", "↑←", "↑←", "↑←", "↑←", "↑←", "↑←", "↓→", "-", "-", "↑←", "↑←", "←", "-", "↓←", "↓←", "←", "-", "-", "-", "-", "-", "-", "-", "-", "↑", "-", "↓←", "↓←", "-", "↓→", "-", "←", "↑←", "-", "-", "↓←", "←", "-", "↑←", "↑←", "↑←", "-", "↓→", "↓→", "↑→", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "↑←", "↓←", "-", "↑←", "↑←", "←", "↑←", "↑←", "←", "←", "-", "-", "←", "↓←", "↑→", "↑←", "←", "←", "-", "↓←", "↓←", "↓←", "↓", "↓", "-", "-", "↑→", "↑→", "-", "↑→", "↑→", "-", "-", "-", "-", "-", "-", "-", "←", "←", "-", "-", "-", "-", "-", "-", "-", "-", "↑→", "↑→", "↑←", "-", "↑", "←", "←", "-", "→", "-", "-", "-", "-", "-", "-", "→", "↓→", "↓→", "↑→", "→", "↑→", "←", "↓→", "↑←", "↑←", "↑←", "↑←", "←", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "↓→", "↓→", "↓→", "→", "↓→", "-", "↑←", "←", "←", "↑←", "→", "↓→", "-", "→", "→", "-", "-", "↓→", "→", "-", "↓←", "-", "↓←", "↓←", "↑", "↓←", "↓", "↓", "↓", "↓", "↓", "↓→", "↑←", "↑", "←", "←", "↓→", "-", "-", "-", "-", "-", "→", "↑→", "↓←", "↓", "↓→", "↓→", "↑→", "↓→", "↓→", "↓←", "↓←", "←", "↑←", "↑→", "-", "-", "←", "←", "←", "↑←", "-", "↓", "-", "-", "-", "-", "-", "↓→", "→", "-", "-", "↑", "-", "↑←", "↑←", "↑←", "↑←", "↑", "↑←", "↑←", "↓→", "-", "←", "↑←", "↑→", "↓→", "↑←", "↓", "-", "-", "↑→", "↑→", "↓", "-", "↑←", "-", "↑→", "→", "↑←", "←", "↑←", "←", "↑←", "-", "-", "←", "↑", "-", "-", "-", "↓→", "→", "↑←", "→", "↓→", "-", "-", "↓", "↓→", "-", "↓→", "↓→", "-", "→", "→", "↑→", "-", "↓→", "↓→", "↓", "-", "↑←", "↑←", "-", "-", "↑", "-", "←", "↑", "-", "-", "↑", "↑", "↑", "-", "-", "-", "↓", "-", "-", "-", "↓", "-", "-", "-", "-", "-", "-", "↓←", "-", "↑", "-", "-", "↑←", "↑→", "-", "→", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "←", "←", "←", "-", "↓→", "→", "↑→", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "↑→", "←", "-", "↓", "-", "-", "-", "-", "-", "←", "←", "-", "↓←", "↓←", "↑←", "↑→", "↑→", "→", "↓→", "↓→", "↓", "↑→", "↑→", "-", "-", "↓←", "-", "↓→", "↑←", "↓←", "↓→", "-", "↓←", "↓", "↑←", "-", "-", "↓→", "-", "-", "-", "↓", "-", "↓", "↓", "↓←", "↓", "↓→", "↓→", "↑←", "↑→", "↑→", "-", "-", "↑→", "↑→", "↑", "↑←", "-", "-", "-", "-", "←", "-", "↓←", "↓←", "↓→", "-", "↑←", "↑←", "↑←", "→", "-", "-", "→", "→", "↓→", "↓→", "-", "→", "-", "-", "→", "↑→", "→", "-", "←", "-", "-", "↓→", "-", "↓→", "→", "-", "-", "←", "←", "-", "←", "←", "↑←", "←", "←", "←", "←", "←", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "←", "←", "↓←", "-", "-", "-", "-", "-", "-", "-", "-", "↑→", "→", "↓→", "-", "↓←", "-", "-", "↓←", "-", "←", "-", "-", "↓", "-", "-", "-", "-", "-", "-", "-", "-", "-", "←", "←", "→", "-", "↑←", "←", "↑", "↑", "-", "↑", "↑", "-", "-", "↑", "-", "-", "-", "-", "-", "←", "-", "-", "-", "-", "-", "-", "-", "-", "←", "←", "←", "↓←", "↓←", "↓", "-", "→", "↑→", "↑→", "←", "-", "→", "→", "-", "-", "↑→", "→", "→", "-", "↓→", "↑→", "↑→", "↑→", "↑→", "-", "-", "-", "-", "↑→", "-", "-", "↓←", "-", "-", "↑→", "↑→", "←", "←", "-", "-", "↓←", "↑←", "↑←", "←", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "↓←", "↑←", "↑←", "-", "↑←", "↑→", "→", "↑→", "↑→", "↑→", "→", "-", "-", "↓←", "↓←", "←", "↑←", "↑←", "↑←", "↑←", "↑←", "-", "-", "-", "↓→", "↓→", "↓→", "↓→", "↓→", "-", "-", "↓", "↓", "↓←", "↓", "↓", "↓←", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "↑→", "↑→", "↑", "↑", "→", "↑→", "-", "↑→", "-", "-", "↓←", "↑←", "-", "-", "-", "-", "-", "-", "→", "↓→", "-", "-", "-", "-", "←", "←", "-", "-", "↓←", "↓←", "↓←", "-", "↓→", "↓←", "↑←", "↓←", "→", "↓→", "↑→", "↑→", "↑→", "-", "↑→", "↑→", "↑→", "-", "-", "-", "-", "-", "-", "↓←", "↓←", "↓←", "↓←", "↓←", "↓←", "-", "↑→", "↑→", "-", "→", "↑→", "↓→", "↑→", "↑→", "-", "↓←", "↓←", "↓←", "↓←", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "↓", "↓←", "↓", "→", "↑←", "↓←", "→", "→", "↑←", "←", "↓←", "↑←", "↑←", "-", "-", "↑→", "↑→", "↑→", "←", "↓←", "-", "-", "←", "-", "↑←", "↓←", "↓", "↓", "↑→", "↑→", "-", "-", "↓←", "↑←", "-"]
+    },
+    "generation": {
+      "height": 480,
+      "width": 832,
+      "num_frames": 81,
+      "num_inference_steps": 25,
+      "seed": 42
+    },
+    "auxiliary_info": {
+      "object_class": {
+        "object": "horse"
+      },
+      "scene": {
+        "scene": {
+          "scene": "snow"
+        }
+      },
+      "appearance_style": {
+        "appearance_style": "realistic game render"
+      }
+    }
+  },
+  {
+    "id": "rocapture_golden_temple_corrupted_heroine",
+    "prompt": "World: A ruined, ancient-looking environment rendered in a highly realistic game style. The ground is sandy and uneven, heavily strewn with dark red petals or leaves. Large, rectangular stone blocks are scattered across the terrain, suggesting a collapsed structure. In the background, massive, intricately carved stone pillars support a cavernous ceiling, with a piece of red fabric draped above. The scene is bathed in warm, golden lighting, creating a dusty, atmospheric mood.; Character: A female humanoid character viewed from behind. She has dark, shoulder-length hair and wears a light-colored, layered tunic with intricate geometric patterns and a belt. The outfit includes a cape-like upper section. Her arms are partially exposed, showing some markings or dirt. She is not holding any visible weapons or items.; Dynamics: 3rd person orbiting the main character. The visual style and setting suggest an action-adventure or role-playing game focused on exploration.",
+    "first_frame": "s3://3dfm-videogen/eval/evalsets/dmr_rocapture/rocapture_golden_temple_corrupted_heroine.png",
+    "actions": {
+      "Movement": ["-", "W", "W", "WD", "WD", "WD", "WD", "WD", "WD", "WD", "WD", "WD", "WD", "WD", "WD", "WD", "WD", "WA", "WA", "WA", "WA", "WA", "WA", "W", "W", "WD", "WD", "WD", "WD", "W", "W", "W", "W", "W", "W", "WA", "WA", "W", "W", "W", "W", "W", "W", "-", "-", "-", "-", "-", "W", "WA", "WA", "WA", "WA", "WD", "WD", "D", "WD", "WD", "WD", "WD", "WD", "WD", "WD", "WD", "W", "WD", "W", "W", "W", "W", "W", "W", "W", "W", "W", "WD", "WD", "W", "W", "W", "W", "W", "W", "W", "W", "-", "-", "W", "W", "W", "W", "W", "WA", "WA", "WA", "WA", "WA", "WA", "WA", "WA", "W", "W", "W", "W", "W", "W", "W", "WA", "WA", "WA", "WA", "WA", "WA", "W", "W", "WA", "WA", "WA", "WA", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "WD", "WD", "WD", "WD", "WD", "WD", "WD", "WD", "WD", "WD", "W", "W", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-"],
+      "Camera": ["↑→", "-", "←", "←", "↓←", "←", "-", "-", "-", "-", "←", "←", "←", "-", "↑←", "←", "-", "→", "→", "↑←", "←", "-", "←", "-", "←", "↑←", "↑→", "↓→", "↓→", "-", "↓→", "→", "-", "-", "-", "-", "↑←", "↑←", "←", "←", "-", "-", "↓→", "↓→", "-", "-", "↓", "-", "-", "←", "-", "↑←", "↑←", "↑←", "←", "←", "-", "→", "→", "-", "-", "-", "-", "-", "-", "-", "←", "←", "-", "-", "-", "←", "-", "←", "↓←", "←", "←", "-", "-", "-", "←", "-", "↓←", "↓←", "↓←", "-", "-", "←", "←", "-", "←", "↑←", "-", "→", "-", "←", "←", "-", "-", "-", "-", "-", "↑→", "↑→", "→", "→", "-", "↑→", "↑→", "↑→", "-", "-", "↓←", "↓←", "-", "←", "-", "-", "-", "-", "-", "-", "-", "-", "→", "↓→", "-", "←", "-", "←", "←", "-", "←", "-", "-", "←", "←", "-", "-", "-", "-", "←", "-", "-", "←", "←", "-", "←", "↓←", "-", "-", "-", "-", "-", "-", "-", "-", "↓→", "↓→", "↓→", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "↑←", "↑←", "-", "→", "→", "-", "↑→", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "↑←", "-", "-", "-", "-", "-", "-"]
+    },
+    "generation": {
+      "height": 480,
+      "width": 832,
+      "num_frames": 81,
+      "num_inference_steps": 25,
+      "seed": 42
+    },
+    "auxiliary_info": {
+      "object_class": {
+        "object": "person"
+      },
+      "scene": {
+        "scene": {
+          "scene": "temple"
+        }
+      },
+      "appearance_style": {
+        "appearance_style": "realistic game render"
+      }
+    }
+  }
+]
