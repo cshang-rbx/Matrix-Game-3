@@ -178,7 +178,7 @@ def _parse_args():
     parser.add_argument(
         "--num_inference_steps",
         type=int,
-        default=25,
+        default=3,
         help="Global inference step count; ignores JSON generation.num_inference_steps.",
     )
     parser.add_argument(
